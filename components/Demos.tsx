@@ -2,6 +2,10 @@ import React from 'react';
 
 const demos = [
   {
+    title: "Offline Agentic RAG",
+    link: "https://drive.google.com/file/d/18V6rUGN2KoyandWnDbUDPhwfm1oWkFxn/preview"
+  },
+  {
     title: "Architect AI",
     link: "https://drive.google.com/file/d/1Xpmm7IwMwOzhyBQHkHyrm4uo1-___qbA/preview"
   },
