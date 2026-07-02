@@ -534,14 +534,17 @@ a:hover {
 
 /* Skills Section */
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  align-items: start;
+  column-width: 300px;
+  column-gap: 20px;
+  width: 100%;
 }
 
 .skill-group {
   padding: 24px;
+  break-inside: avoid;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
 }
 
 .skill-label {
