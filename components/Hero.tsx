@@ -18,7 +18,7 @@ export default function Hero() {
             />
           </div>
           <h1 className="hero-title">Jinesh Rathod</h1>
-          <p className="hero-tagline">AI / Machine Learning Engineer · Researcher</p>
+          <p className="hero-tagline">AI / Machine Learning Engineer | Researcher</p>
           <div className="hero-contact glass-panel">
             <a href="tel:+919879921823" className="contact-link">
               <span className="contact-icon">📱</span> +91 98799 21823
