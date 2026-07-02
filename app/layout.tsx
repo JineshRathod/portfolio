@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Jinesh Rathod — Portfolio",
-  description: "AI · Machine Learning · FPGA Acceleration · Research",
+  description: "AI / Machine Learning Engineer and Researcher. Deep learning, computer vision, FPGA acceleration, generative AI, and RAG systems.",
 };
 
 export default function RootLayout({

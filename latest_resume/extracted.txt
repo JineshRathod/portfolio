@@ -1,0 +1,62 @@
+Jinesh Rathod
+AI / Machine Learning Engineer  |  Researcher
++91 98799 21823   |   jinesh.connect@gmail.com
+LinkedIn: linkedin.com/in/jinesh-rathod   |   GitHub: github.com/JineshRathod   |   Portfolio: jineshrathod-portfolio.vercel.app
+PROFESSIONAL SUMMARY
+B.Tech Computer Science fresher (GLS University, 2026) with hands-on research experience in deep learning, computer vision, FPGA-based neural network acceleration, and generative AI. Research Intern at ISRO Space Applications Centre (SAC) with a peer-reviewed publication in Springer LNNS (SCOPUS-indexed). Proficient in Python, PyTorch, TensorFlow, Scikit-learn, LangGraph, RAG architectures, YOLOv8/v11, and Stable Diffusion. Delivered production-ready AI/ML models, real-time inference pipelines, MLOps workflows, and edge-deployed neural network accelerators.
+TECHNICAL SKILLS
+Languages: Python, C++, SQL, Java
+ML / Deep Learning: PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, LightGBM, NumPy, Pandas, SciPy, NLP, Linear Regression, Logistic Regression, Decision Trees, Random Forest, SVM, K-Means, PCA, CNNs, Transformers, Attention Mechanisms, BERT, Transfer Learning, Model Quantization (INT8/QAT), Pruning, Knowledge Distillation
+Generative AI & LLMs: LangChain, LangGraph, LlamaIndex, RAG, Agentic RAG, Prompt Engineering, Fine-tuning (LoRA), Hugging Face Transformers, Stable Diffusion, Ollama, Gemma, Llama 3, BGE Embeddings, Cross-Encoder Reranking, ChromaDB, FAISS, Pinecone, Offline LLM Deployment, LLM Agents
+Computer Vision: OpenCV, YOLOv8/v11, MediaPipe, Image Segmentation, Object Detection, ResNet, U-Net
+Data Analysis & Visualisation: Matplotlib, Seaborn, Plotly, Pandas, NumPy, Feature Engineering, Data Wrangling, Statistical Analysis, Hypothesis Testing
+MLOps & Experiment Tracking: MLflow, Weights & Biases (W&B, wandb), Docker, FastAPI, Flask, REST APIs, ONNX, TensorFlow Lite, CUDA, Git, GitHub, Linux, n8n
+Edge & Embedded AI: FPGA Acceleration, Vitis HLS, AXI-Stream, Xilinx Zynq MPSoC, HW-SW Co-Design, Latency Optimisation, On-Device Inference
+Databases & Vector Stores: MySQL, SQLite, InfluxDB, ChromaDB, FAISS, Pinecone
+Cloud & Dev Tools: Google Colab, Hugging Face Spaces, Kaggle, Jupyter, VS Code, MATLAB, Grafana
+WORK EXPERIENCE
+Research Intern — AI & FPGA Acceleration  |  Space Applications Centre (SAC), ISRO, AhmedabadDec 2025 – Apr 2026
+Project 1: ADS-B Preamble Detection on FPGA
+Designed a 3-layer Depthwise Separable Fully Convolutional Network (FCN, Keras/TensorFlow) for Automatic Dependent Surveillance–Broadcast (ADS-B) radio signal preamble detection — achieved Dice coefficient 0.9885 (FP32) and 0.9871 post INT8 Quantization-Aware Training (QAT), validated on an 11 GB Software-Defined Radio (SDR) dataset with 99.95% accuracy parity vs. software baseline.
+Engineered a custom Vitis HLS C++ IP core with 256-bit channel packing and fused quantization biases, achieving Initiation Interval (II) of 1 at 100 MHz on Xilinx Zynq MPSoC — enabling single-cycle pipelined inference.
+Deployed FPGA neural network inference accelerator completing inference in 3,906 ns per 4,200 samples — 50x speedup over software baseline via hardware-software co-design and AXI-Stream optimisation.
+Project 2: Satellite Payload Temperature Telemetry Logger
+Architected a Python Extract-Transform-Load (ETL) pipeline connecting MySQL databases with live CSV telemetry streams via a junction table, enabling real-time data synchronisation for satellite payload systems.
+Ingested time-series satellite telemetry into InfluxDB and built a real-time Grafana monitoring dashboard with threshold-based spike alerts — end-to-end latency under 5 seconds.
+PROJECTS
+Offline Agentic RAG — Privacy-First Document Intelligence  |  LangGraph, ChromaDB, Ollama, FastAPI, React, BGE EmbeddingsMay 2026 – Jun 2026
+Engineered a 100% offline, zero-API-key Agentic RAG system with LangGraph state-machine architecture; ingests PDF, DOCX, PPTX, CSV, JSON, Markdown, and scraped URLs with smart contextual chunking.
+Implemented Cross-Encoder reranking pipeline (ms-marco-MiniLM-L-6-v2) over ChromaDB retrieval (top-10 overfetch → top-5 rerank), reducing hallucinations and improving answer relevance.
+Added implicit self-learning: system dynamically adjusts chunk confidence weights based on user follow-up tone analysis; streams responses token-by-token via FastAPI.
+GitHub: github.com/JineshRathod/RAG   |   Video Demo
+Architect AI — Generative Floor-Plan Visualiser  [Springer LNNS SCOPUS]  |  PyTorch, ResNet, U-Net, Stable Diffusion 2.1, LoRA, CUDASep 2025 – Dec 2025
+Built a generative AI system enabling architects to visualise floor-plan concepts from natural language prompts using a ResNet + U-Net backbone fine-tuned with Stable Diffusion 2.1 and LoRA adapters.
+Accelerated inference with CUDA-optimised pipelines; published peer-reviewed research at CIS 2025, indexed in Springer LNNS SCOPUS.
+GitHub: github.com/JineshRathod/ArchitechAI   |   Video Demo
+AutoDetect AI — Vehicle Damage Detection  |  YOLOv11, PyTorch, OpenCV, FlutterOct 2025 – Nov 2025
+Trained YOLOv11 object detection model on a custom-annotated dataset to detect vehicle damage (scratches, dents, cracks, shattered glass).
+Deployed end-to-end as a Flutter mobile application with real-time on-device YOLO inference pipeline.
+GitHub: github.com/JineshRathod/AutoDetect-AI-Vehicle-Damage-Detection   |   Video Demo
+AI Virtual Nail Try-On  |  YOLOv8, PyTorch, MediaPipe, OpenCVMay 2026 – Jun 2026
+Built a computer vision pipeline for photorealistic virtual nail polish try-on using YOLOv8 for nail segmentation and MediaPipe for hand pose estimation with perspective-accurate overlays.
+GitHub: github.com/JineshRathod/AI-Virtual-Nail-Try-On   |   Video Demo
+StemTape — AI Music Stem Separation Platform  |  Demucs (htdemucs), FastAPI, React, Hugging Face SpacesJan 2026 – Mar 2026
+Built and deployed a full-stack music source separation platform using Demucs to isolate vocals, drums, bass, and other stems from any audio track; live on Hugging Face Spaces with real-time inference.
+Live App   |   GitHub: github.com/JineshRathod/StemTape   |   Video Demo
+GeoSpatial Site Readiness Analyser  |  Python, FastAPI, React, MapLibre, ZustandMar 2026
+Built a full-stack geospatial analytics platform evaluating commercial site viability via a dynamic scoring engine aggregating road density, competitor proximity, Air Quality Index (AQI), and cellular coverage.
+Integrated MapLibre for interactive map visualisation and Zustand for client-side state management in a React + FastAPI architecture.
+GitHub: github.com/JineshRathod/GeoSpatial-Site-Readiness-Analyzer   |   Video Demo
+PUBLICATION
+Architect AI: Generative Floor-Plan Visualization from Natural Language Prompts — CIS 2025, Springer LNNS (SCOPUS-Indexed)
+View Publication: link.springer.com/chapter/10.1007/978-3-032-18141-1_13
+EDUCATION
+B.Tech — Computer Science & Engineering  |  GLS University, Ahmedabad2022 – 2026
+CGPA: 7.9 / 10
+CERTIFICATIONS
+Data Analysis with Python — Coursera
+Python for Everybody — Coursera
+Cloud IoT and Edge ML — NPTEL
+AI & Green Skills — Edunet Foundation
+LANGUAGES
+English (Fluent)   |   Gujarati (Native)   |   Hindi (Fluent)   |   French (Basic)

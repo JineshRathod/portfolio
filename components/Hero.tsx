@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 export default function Hero() {
@@ -6,8 +7,18 @@ export default function Hero() {
       <div className="hero-background"></div>
       <div className="container hero-container animate-fade-in-up">
         <div className="hero-content">
+          <div className="hero-photo-wrap">
+            <Image
+              src="/profile.png"
+              alt="Jinesh Rathod"
+              width={120}
+              height={120}
+              className="hero-photo"
+              priority
+            />
+          </div>
           <h1 className="hero-title">Jinesh Rathod</h1>
-          <p className="hero-tagline">AI · Machine Learning · FPGA Acceleration · Research</p>
+          <p className="hero-tagline">AI / Machine Learning Engineer · Researcher</p>
           <div className="hero-contact glass-panel">
             <a href="tel:+919879921823" className="contact-link">
               <span className="contact-icon">📱</span> +91 98799 21823

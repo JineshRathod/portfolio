@@ -14,23 +14,22 @@ export default function Experience() {
               </div>
               <div className="timeline-date">Dec 2025 – Apr 2026</div>
             </div>
-            
+
             <div className="timeline-content">
               <div className="project-group">
-                <h5 className="sub-project-title"><span className="highlight-badge">FPGA</span> ADS-B Preamble Detection</h5>
+                <h5 className="sub-project-title"><span className="highlight-badge">FPGA</span> ADS-B Preamble Detection on FPGA</h5>
                 <ul className="bullets">
-                  <li>Designed a 3-layer Depthwise Separable FCN in Keras for preamble detection, achieving a Dice coefficient of 0.9885 (FP32) to 0.9871 post INT8 QAT.</li>
-                  <li>Engineered a custom Vitis HLS C++ IP core with 256-bit channel-packing and fused quantization biases, achieving II = 1 at 100 MHz.</li>
-                  <li>Deployed the inference accelerator on a Xilinx Zynq MPSoC, achieving 3906 ns per 4200 samples (a ~50x speedup).</li>
-                  <li>Validated the hardware design on an 11 GB Software-Defined Radio (SDR) dataset, maintaining 99.95% accuracy compared to the software baseline.</li>
+                  <li>Designed a 3-layer Depthwise Separable Fully Convolutional Network (FCN, Keras/TensorFlow) for ADS-B radio signal preamble detection — achieved Dice coefficient 0.9885 (FP32) and 0.9871 post INT8 QAT, validated on an 11 GB SDR dataset with 99.95% accuracy parity vs. software baseline.</li>
+                  <li>Engineered a custom Vitis HLS C++ IP core with 256-bit channel packing and fused quantization biases, achieving Initiation Interval (II) of 1 at 100 MHz on Xilinx Zynq MPSoC.</li>
+                  <li>Deployed FPGA neural network inference accelerator completing inference in 3,906 ns per 4,200 samples — 50x speedup over software baseline via hardware-software co-design and AXI-Stream optimisation.</li>
                 </ul>
               </div>
 
               <div className="project-group" style={{ marginTop: '20px' }}>
-                <h5 className="sub-project-title"><span className="highlight-badge">ETL</span> Payload Temperature Logger</h5>
+                <h5 className="sub-project-title"><span className="highlight-badge">ETL</span> Satellite Payload Temperature Telemetry Logger</h5>
                 <ul className="bullets">
-                  <li>Architected an automated Python ETL pipeline to seamlessly bridge MySQL databases and live CSV telemetry via a programmatic junction table.</li>
-                  <li>Ingested time-series data into InfluxDB and built a real-time Grafana dashboard with threshold-based spike alerts, achieving an end-to-end latency of &lt; 5 seconds.</li>
+                  <li>Architected a Python ETL pipeline connecting MySQL databases with live CSV telemetry streams via a junction table, enabling real-time data synchronisation for satellite payload systems.</li>
+                  <li>Ingested time-series satellite telemetry into InfluxDB and built a real-time Grafana monitoring dashboard with threshold-based spike alerts — end-to-end latency under 5 seconds.</li>
                 </ul>
               </div>
             </div>
