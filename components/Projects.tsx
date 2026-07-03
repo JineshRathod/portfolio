@@ -2,6 +2,15 @@ import React from 'react';
 
 const projects = [
   {
+    name: "Agentic IDE — The Ultimate Beginner-Friendly Coding Companion",
+    period: "Jul 2026",
+    desc: "Built a desktop IDE using Electron, Next.js, and Monaco Editor that acts as a personal AI coding tutor. Features real-time error interception with jargon-free explanations, AI-powered auto-fixes, and a smart chat assistant powered by Groq. Integrated Anthropic's Model Context Protocol (MCP) allowing dynamic injection of tools directly into the assistant's context.",
+    tags: ["Electron", "Next.js", "Monaco Editor", "Groq", "MCP", "React"],
+    github: "https://github.com/JineshRathod/Agentic-IDE",
+    demo: "https://drive.google.com/file/d/1wKyaBiQOPW3luIqw3VF1OjpZ3l9HGbBj/view?usp=drive_link",
+    highlight: true,
+  },
+  {
     name: "Offline Agentic RAG — Privacy-First Document Intelligence",
     period: "May 2026 – Jun 2026",
     desc: "Engineered a 100% offline, zero-API-key Agentic RAG system with LangGraph state-machine architecture; ingests PDF, DOCX, PPTX, CSV, JSON, Markdown, and scraped URLs with smart contextual chunking. Implemented Cross-Encoder reranking pipeline (ms-marco-MiniLM-L-6-v2) over ChromaDB retrieval (top-10 overfetch → top-5 rerank), reducing hallucinations and improving answer relevance. Added implicit self-learning: system dynamically adjusts chunk confidence weights based on user follow-up tone analysis; streams responses token-by-token via FastAPI.",

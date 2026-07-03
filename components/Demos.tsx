@@ -2,6 +2,10 @@ import React from 'react';
 
 const demos = [
   {
+    title: "Agentic IDE",
+    link: "https://drive.google.com/file/d/1wKyaBiQOPW3luIqw3VF1OjpZ3l9HGbBj/preview"
+  },
+  {
     title: "Offline Agentic RAG",
     link: "https://drive.google.com/file/d/18V6rUGN2KoyandWnDbUDPhwfm1oWkFxn/preview"
   },
